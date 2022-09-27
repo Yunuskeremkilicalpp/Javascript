@@ -1,0 +1,13 @@
+function minMax(arr){
+    let minNum=arr[0];
+    for (let i=0; i<arr.length; i++){
+        if(arr[i]<minNum){
+            minNum=arr[i]
+        }
+    }
+    console.log("minimum number is: "+minNum)
+    return minNum
+}
+
+minMax([9,5,23,1,-4,234,,5,76,-334234,5,7,8556,345,7])
+        
